@@ -8,7 +8,7 @@ function successLocation(position) {
 }
 
 function errorLocation() {
-    settingMap([77.22, 28.72])
+    settingMap([18.781525,84.084542])
 }
 
 function settingMap(center) {
@@ -16,7 +16,7 @@ function settingMap(center) {
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-v11',
         center: center,
-        zoom: 9
+        zoom: 10
     });
 
     map.addControl(new mapboxgl.NavigationControl());
